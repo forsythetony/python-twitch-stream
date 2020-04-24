@@ -164,6 +164,8 @@ class TwitchOutputStream(object):
             self.twitch_stream_key
             ])
 
+            print(command)
+
         devnullpipe = open("/dev/null", "w")     # Throw away stream
         if self.verbose:
             devnullpipe = None
