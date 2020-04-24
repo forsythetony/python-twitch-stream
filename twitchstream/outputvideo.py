@@ -160,7 +160,7 @@ class TwitchOutputStream(object):
             '-threads', '2',
 
             # STREAM TO TWITCH
-            '-f', 'flv', 'rtmp://live-ams.twitch.tv/app/%s' %
+            '-f', 'flv', 'rtmp://live-ord02.twitch.tv/app/%s' %
             self.twitch_stream_key
             ])
 
